@@ -19,9 +19,7 @@ const App = () => {
   const initialState = useInitialState();
 
   return (
-    <AppContext.Provider
-      value={initialState}
-    >
+    <AppContext.Provider value={initialState}>
       <BrowserRouter>
         <Layout>
           <Switch>
@@ -35,7 +33,7 @@ const App = () => {
         </Layout>
       </BrowserRouter>
     </AppContext.Provider>
-  )
+  );
 };
 
 export default App;
