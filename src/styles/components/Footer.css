@@ -1,4 +1,9 @@
 .Footer {
+  background-color: #111d5e;
+  color: #c0e218;
+}
+
+.Footer .container {
   display: flex;
   justify-content: space-between;
 }

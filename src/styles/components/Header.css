@@ -1,4 +1,8 @@
 .Header {
+  background-color: #111d5e;
+}
+
+.Header .container {
   display: flex;
   justify-content: space-between;
 }
@@ -11,11 +15,11 @@
   margin: 0 0 0 0.5em;
 }
 .Header-alert {
-  color: #33b13a;
+  color: #c0e218;
   font-size: 14px;
   margin-left: 5px;
 }
 .Header a {
   text-decoration: none;
-  color: #33b1ff;
+  color: #c0e218;
 }
